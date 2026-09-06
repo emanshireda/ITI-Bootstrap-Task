@@ -1,0 +1,162 @@
+.container-fluid {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F7FAFC;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+main {
+    background-color: #F7FAFC;
+    height: 400px;
+    padding: 0px;
+
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.hero-highlight {
+    color: #0099ff;
+}
+
+.hero-btn {
+    background-color: #00a6ff;
+    border-color: #00a6ff;
+    border-radius: 6px;
+}
+
+.hero-btn:hover {
+    background-color: #008be5;
+    border-color: #008be5;
+}
+
+.features-section {
+    background-color: #ffffff;
+}
+
+.section-title {
+    color: #1a202c;
+    font-size: 2rem;
+}
+
+.section-description {
+    color: #64748b;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.feature-title {
+    color: #1a202c;
+    font-size: 1.5rem;
+}
+
+.feature-text {
+    color: #64748b;
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+.img {
+    width: 100%;
+    max-width: 380px;
+    height: 260px;
+}
+
+.cta-box {
+    background-color: #e6f6ff;
+    border-radius: 12px;
+    padding: 40px 48px;
+}
+
+.cta-title {
+    color: #1a202c;
+    font-size: 1.25rem;
+}
+
+.cta-subtitle {
+    color: #0099ff;
+    font-weight: 500;
+    font-size: 1.05rem;
+    text-align: left;
+}
+
+.cta-btn {
+    background-color: #0099ff;
+    border-color: #0099ff;
+    padding: 10px 24px;
+    border-radius: 8px;
+}
+
+.cta-btn:hover {
+    background-color: #0080d6;
+    border-color: #0080d6;
+}
+
+.footer {
+    background-color: #F7FAFC;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-link {
+    color: #4a5568;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.footer-link:hover {
+    color: #0099ff;
+}
+
+.social-icon {
+    color: #718096;
+    font-size: 1.15rem;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #1a202c;
+}
+
+.copyright-text {
+    color: #a0aec0;
+    font-size: 0.8rem;
+}
+
+.copyright-link {
+    color: #0099ff;
+    text-decoration: none;
+}
+
+.copyright-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 767.98px) {
+  .feature-row {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; 
+    margin-bottom: 3.5rem; 
+  }
+
+  .feature-row .feature-text-col {
+    order: 1;
+    text-align: center;
+  }
+
+  .feature-row .feature-img-col {
+    order: 2;
+    display: flex;
+    justify-content: center;
+  }
+}
